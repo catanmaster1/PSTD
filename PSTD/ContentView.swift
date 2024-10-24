@@ -19,7 +19,7 @@ struct ContentView: View {
 
             Text("Welcome to Lawn Mower. Go to each corner of your lawn, and pinch your finger at each corner")
 
-            //ToggleImmersiveSpaceButton()
+            //ToggleImmersi veSpaceButton()
         }
         .padding()
     }
