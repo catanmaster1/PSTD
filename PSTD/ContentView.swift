@@ -8,24 +8,57 @@
 import SwiftUI
 import RealityKit
 import RealityKitContent
+
 import ARKit
 
-struct ContentView: View {
 
+
+
+struct ARSceneView: View {
+    
+    @State var isVisible = true
+    
+    @State private var newPosition = SIMD3<Float>(0, 0, 0)
+    
+    @State var model = ModelEntity(
+        mesh: .generateSphere(radius: 0.1),
+        materials: [SimpleMaterial(color: .white, isMetallic: true)])
+    
     var body: some View {
-        VStack {
-            //Model3D(named: "Scene", bundle: realityKitContentBundle)
-               // .padding(.bottom, 50)
-
-            Text("Welcome to Lawn Mower. Go to each corner of your lawn, and pinch your finger at each corner")
-
-            //ToggleImmersi veSpaceButton()
-        }
-        .padding()
+        
+        
+        RealityView { content in
+            
+            model.components.set(InputTargetComponent())
+            model.components.set(CollisionComponent(shapes: [.generateSphere(radius: 0.1)]))
+            
+            if isVisible{
+                content.add(model)
+            }
+            
+            let cameraEntity = PerspectiveCamera()
+            cameraEntity.transform.translation = SIMD3<Float>(20, 20, 20) // Adjust this value as needed
+            content.add(cameraEntity)
+            }
+            
+            
+            
+                .onTapGesture {
+                    // Update to a new random position
+                    newPosition = SIMD3<Float>(0.1,0,0)
+                    
+                    // Apply new position
+                    model.transform.translation = newPosition
+                }
+            
+        
+        
     }
+    
 }
-
-#Preview(windowStyle: .automatic) {
-    ContentView()
-        .environment(AppModel())
+struct ContentView: View {
+    var body: some View {
+        ARSceneView()
+            .edgesIgnoringSafeArea(.all)
+    }
 }
