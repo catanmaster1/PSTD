@@ -1,0 +1,608 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8,
+                0
+              ],
+              "identifier" : "0DCFC1AE-7031-48DD-9561-11B17C5BBD6D",
+              "material" : "plastic",
+              "overrides" : {
+                "children" : {
+                  "3D474B1B-900D-4C6B-B240-F7470A6E6938" : null,
+                  "3F4AC836-A027-4231-8B3D-C1DA698D2203" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "sphere"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "E3F06A96-16BD-4038-ADC7-2BD915331DB2"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.044941146,
+                        0.04491013,
+                        -2.6768525e-09,
+                        0,
+                        -0.044910185,
+                        0.044941198,
+                        1.1082435e-09,
+                        0,
+                        2.6763685e-09,
+                        1.1080521e-09,
+                        0.06352304,
+                        0,
+                        -0.015937995,
+                        0.13988195,
+                        0.09861312,
+                        1
+                      ]
+                    }
+                  },
+                  "3FE0485B-4002-48DC-86EA-256417C74B01" : null,
+                  "14B89637-8374-46F7-9E63-64CBD5194350" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "diameter",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.01193900965154171
+                          }
+                        ],
+                        [
+                          "height",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.02891000732779503
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.09090909361839294,
+                              0.09090909361839294,
+                              0.09090909361839294,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "roundness",
+                          {
+                            "typeName" : "Double",
+                            "value" : 1
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "capsule"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "C7D8FE08-E661-48FD-BDA9-56EEE61F0F89"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.7756766,
+                        -0.053793628,
+                        -0.2007591,
+                        0,
+                        5.236691e-07,
+                        -0.77567357,
+                        0.20784059,
+                        0,
+                        -0.20784119,
+                        0.20075925,
+                        0.74924606,
+                        0,
+                        -0.015811399,
+                        0.13371162,
+                        0.09692347,
+                        1
+                      ]
+                    }
+                  },
+                  "301D46D9-DFF9-4861-9ACA-574ED0D7D441" : null,
+                  "463B779F-511F-4E32-A61B-939601DC96EB" : null,
+                  "497F3841-05A6-408E-9DC1-E25262255DBF" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "clayTerracotta"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.699999988079071,
+                              0.41999998688697815,
+                              0.14000000059604645,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "thickness",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.6201955676078796
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "star"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "4D142F43-B240-486F-B35E-81212BD3DAAF"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.99999934,
+                        0,
+                        0,
+                        0,
+                        0,
+                        7.3660533e-07,
+                        0.9999991,
+                        0,
+                        0,
+                        -0.9999991,
+                        7.3660533e-07,
+                        0,
+                        0.061374366,
+                        0.27993536,
+                        -0.07713549,
+                        1
+                      ]
+                    }
+                  },
+                  "934A9EDC-B874-47A9-8DCF-707395D6DD9F" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "diameter",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.1
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.93333500623703,
+                              0.93333500623703,
+                              0.93333500623703,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "sphere"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "1B5B912B-BCCE-4A1D-97E1-A612E6641220"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.044941146,
+                        0.04491013,
+                        -2.6768525e-09,
+                        0,
+                        -0.044910185,
+                        0.044941198,
+                        1.1082435e-09,
+                        0,
+                        2.676371e-09,
+                        1.1080532e-09,
+                        0.0635231,
+                        0,
+                        0.03702526,
+                        0.14083861,
+                        0.098613136,
+                        1
+                      ]
+                    }
+                  },
+                  "29151DA4-EC90-465D-BA20-6F28067843EC" : null,
+                  "723742CC-BE64-416D-815A-9A3D778D1A45" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "plastic"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              1,
+                              0.7333333492279053,
+                              0.46666666865348816,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "helix"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "50DE3B54-D505-4B37-88B1-16883AED553C"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.1892658,
+                        -0.31866276,
+                        -3.3753808e-16,
+                        0,
+                        0.31866276,
+                        1.1892658,
+                        1.0521165e-14,
+                        0,
+                        -2.3970406e-15,
+                        -1.0250026e-14,
+                        1.2312186,
+                        0,
+                        -0.020594655,
+                        0.21692125,
+                        -0.053608052,
+                        1
+                      ]
+                    }
+                  },
+                  "961184CC-9968-45E7-847F-B3D1889FFD2A" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "diameter",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.01193900965154171
+                          }
+                        ],
+                        [
+                          "height",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.02891000732779503
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "roundness",
+                          {
+                            "typeName" : "Double",
+                            "value" : 1
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "capsule"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "96C97EF9-DF76-46C1-86ED-8661C068B67F"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -0.77567565,
+                        -0.053793818,
+                        -0.20075853,
+                        0,
+                        7.23047e-07,
+                        -0.775673,
+                        0.20784098,
+                        0,
+                        -0.2078406,
+                        0.2007594,
+                        0.74924487,
+                        0,
+                        0.036965318,
+                        0.13371138,
+                        0.096923344,
+                        1
+                      ]
+                    }
+                  },
+                  "C645115C-69DB-429C-A0BF-17C681524AD6" : null,
+                  "D40ECAD2-1A17-4F98-9D18-ECE6F4C69255" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "diameter",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.1
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "plastic"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.800000011920929,
+                              1,
+                              0.6000000238418579,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "sphere"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "54C39440-19EA-4238-B35C-D0C019311444"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.9591014,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1.9591014,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1.9591014,
+                        0,
+                        0.013960008,
+                        0.09795507,
+                        0.008655092,
+                        1
+                      ]
+                    }
+                  },
+                  "DC6B9ABF-4B8A-495D-8849-6CEE255B6471" : null,
+                  "E43F7175-9D63-4955-8FD0-90B58EA3301B" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Scene",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.8605474,
+                  -7.4505815e-09,
+                  0.5093704,
+                  0,
+                  0.20271799,
+                  0.9173953,
+                  -0.34247833,
+                  0,
+                  -0.4672941,
+                  0.39797744,
+                  0.7894619,
+                  0,
+                  -0.23633526,
+                  0.40695804,
+                  0.52983785,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

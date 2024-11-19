@@ -27,6 +27,7 @@ struct ToggleImmersiveSpaceButton: View {
 
                     case .closed:
                         appModel.immersiveSpaceState = .inTransition
+                    
                         switch await openImmersiveSpace(id: appModel.immersiveSpaceID) {
                             case .opened:
                                 // Don't set immersiveSpaceState to .open because there
@@ -40,7 +41,7 @@ struct ToggleImmersiveSpaceButton: View {
                                 fallthrough
                             @unknown default:
                                 // On unknown response, assume space did not open.
-                                appModel.immersiveSpaceState = .closed
+                              appModel.immersiveSpaceState = .closed
                         }
 
                     case .inTransition:
@@ -51,7 +52,7 @@ struct ToggleImmersiveSpaceButton: View {
         } label: {
             Text(appModel.immersiveSpaceState == .open ? "Hide Immersive Space" : "Show Immersive Space")
         }
-        .disabled(appModel.immersiveSpaceState == .inTransition)
+        //.disabled(appModel.immersiveSpaceState == .inTransition)
         .animation(.none, value: 0)
         .fontWeight(.semibold)
     }

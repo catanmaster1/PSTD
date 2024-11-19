@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D796C8892CDA5C1A0097D992 /* wide in Resources */ = {isa = PBXBuildFile; fileRef = D796C8842CDA5C1A0097D992 /* wide */; };
+		D796C88A2CDA5C1A0097D992 /* com.apple.RCFoundation.Project in Resources */ = {isa = PBXBuildFile; fileRef = D796C8872CDA5C1A0097D992 /* com.apple.RCFoundation.Project */; };
+		D796C88B2CDA5C1A0097D992 /* Version.json in Resources */ = {isa = PBXBuildFile; fileRef = D796C8802CDA5C1A0097D992 /* Version.json */; };
+		D796C88C2CDA5C1A0097D992 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = D796C87F2CDA5C1A0097D992 /* Contents.json */; };
+		D796C88D2CDA5C1A0097D992 /* square in Resources */ = {isa = PBXBuildFile; fileRef = D796C8832CDA5C1A0097D992 /* square */; };
+		D796C88E2CDA5C1A0097D992 /* wide in Resources */ = {isa = PBXBuildFile; fileRef = D796C8842CDA5C1A0097D992 /* wide */; };
+		D796C88F2CDA5C1A0097D992 /* com.apple.RCFoundation.Project in Resources */ = {isa = PBXBuildFile; fileRef = D796C8872CDA5C1A0097D992 /* com.apple.RCFoundation.Project */; };
+		D796C8902CDA5C1A0097D992 /* Version.json in Resources */ = {isa = PBXBuildFile; fileRef = D796C8802CDA5C1A0097D992 /* Version.json */; };
+		D796C8912CDA5C1A0097D992 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = D796C87F2CDA5C1A0097D992 /* Contents.json */; };
+		D796C8922CDA5C1A0097D992 /* square in Resources */ = {isa = PBXBuildFile; fileRef = D796C8832CDA5C1A0097D992 /* square */; };
 		D7A54D622CCA9C6200AF53F5 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D7A54D612CCA9C6200AF53F5 /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D796C87F2CDA5C1A0097D992 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		D796C8802CDA5C1A0097D992 /* Version.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Version.json; sourceTree = "<group>"; };
+		D796C8832CDA5C1A0097D992 /* square */ = {isa = PBXFileReference; lastKnownFileType = file; path = square; sourceTree = "<group>"; };
+		D796C8842CDA5C1A0097D992 /* wide */ = {isa = PBXFileReference; lastKnownFileType = file; path = wide; sourceTree = "<group>"; };
+		D796C8872CDA5C1A0097D992 /* com.apple.RCFoundation.Project */ = {isa = PBXFileReference; lastKnownFileType = text; path = com.apple.RCFoundation.Project; sourceTree = "<group>"; };
 		D7A54D5C2CCA9C6200AF53F5 /* PSTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSTD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A54D602CCA9C6200AF53F5 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		D7A54D772CCA9C6500AF53F5 /* PSTDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSTDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +86,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D796C8812CDA5C1A0097D992 /* ProjectLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				D796C87F2CDA5C1A0097D992 /* Contents.json */,
+				D796C8802CDA5C1A0097D992 /* Version.json */,
+			);
+			path = ProjectLibrary;
+			sourceTree = "<group>";
+		};
+		D796C8822CDA5C1A0097D992 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D796C8812CDA5C1A0097D992 /* ProjectLibrary */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D796C8852CDA5C1A0097D992 /* 0DCFC1AE-7031-48DD-9561-11B17C5BBD6D.thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				D796C8832CDA5C1A0097D992 /* square */,
+				D796C8842CDA5C1A0097D992 /* wide */,
+			);
+			path = "0DCFC1AE-7031-48DD-9561-11B17C5BBD6D.thumbnails";
+			sourceTree = "<group>";
+		};
+		D796C8862CDA5C1A0097D992 /* SceneThumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				D796C8852CDA5C1A0097D992 /* 0DCFC1AE-7031-48DD-9561-11B17C5BBD6D.thumbnails */,
+			);
+			path = SceneThumbnails;
+			sourceTree = "<group>";
+		};
+		D796C8882CDA5C1A0097D992 /* New Project 2.rcproject */ = {
+			isa = PBXGroup;
+			children = (
+				D796C8822CDA5C1A0097D992 /* Library */,
+				D796C8862CDA5C1A0097D992 /* SceneThumbnails */,
+				D796C8872CDA5C1A0097D992 /* com.apple.RCFoundation.Project */,
+			);
+			path = "New Project 2.rcproject";
+			sourceTree = "<group>";
+		};
 		D7A54D532CCA9C6200AF53F5 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +137,7 @@
 				D7A54D5F2CCA9C6200AF53F5 /* Packages */,
 				D7A54D7A2CCA9C6500AF53F5 /* PSTDTests */,
 				D7A54D5D2CCA9C6200AF53F5 /* Products */,
+				D796C8882CDA5C1A0097D992 /* New Project 2.rcproject */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D796C88E2CDA5C1A0097D992 /* wide in Resources */,
+				D796C88F2CDA5C1A0097D992 /* com.apple.RCFoundation.Project in Resources */,
+				D796C8902CDA5C1A0097D992 /* Version.json in Resources */,
+				D796C8912CDA5C1A0097D992 /* Contents.json in Resources */,
+				D796C8922CDA5C1A0097D992 /* square in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D796C8892CDA5C1A0097D992 /* wide in Resources */,
+				D796C88A2CDA5C1A0097D992 /* com.apple.RCFoundation.Project in Resources */,
+				D796C88B2CDA5C1A0097D992 /* Version.json in Resources */,
+				D796C88C2CDA5C1A0097D992 /* Contents.json in Resources */,
+				D796C88D2CDA5C1A0097D992 /* square in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PSTD/Preview Content\"";
+				DEVELOPMENT_TEAM = D2S5ZMXAZX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -262,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PSTD/Preview Content\"";
+				DEVELOPMENT_TEAM = D2S5ZMXAZX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
